@@ -1,0 +1,162 @@
+/* Reset de márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header .logo {
+    float: left;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyRmS9SFIh874A6GlzhWtJbGj6FxmsTgw69Q&s') no-repeat center center/cover;
+    color: #fff;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.servicios {
+    padding: 40px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.servicios h2 {
+    margin-bottom: 30px;
+    font-size: 32px;
+    color: #333;
+}
+
+.servicio-card {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin: 0 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.nosotros {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.contacto {
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+.contacto form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contacto form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.contacto form input,
+.contacto form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contacto form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contacto form button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
